@@ -1,18 +1,17 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "mysql"
-  url      = env("DATABASE_URL")
+  url      = "mysql://root:@localhost:3306/todo"
 }
 
 model Todo {
-  id              Int         @id  @default(autoincrement())
-  nom             String?
-  statut          String?
-  description     String?
+  id          Int       @id @default(autoincrement())
+  nom         String?
+  statut      String?
+  description String?
+  completed   Boolean   @default(false)
+  dueDate     String?
 }
