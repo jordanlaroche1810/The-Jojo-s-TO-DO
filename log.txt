@@ -1,0 +1,26 @@
+yarn run v1.22.17
+$ '/Users/jordan/Cours/Javascript/TP Todo/my-app/node_modules/.bin/nodemon' server.js
+[33m[nodemon] 2.0.15[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `react-scripts start server.js`[39m
+Starting the development server...
+
+Compiled successfully!
+
+You can now view my-app in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.24.92.213:3000
+
+Note that the development build is not optimized.
+To create a production build, use yarn build.
+
+assets by path static/js/*.js 1.49 MiB
+  asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+  asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.92 KiB [emitted] 1 related asset
+asset index.html 1.95 KiB [emitted]
+asset asset-manifest.json 458 bytes [emitted]
+cached modules 1.37 MiB (javascript) 31.3 KiB (runtime) [cached] 121 modules
+webpack 5.67.0 compiled successfully in 797 ms
