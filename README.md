@@ -20,10 +20,10 @@ Et voilà mon appli est lancé !
 
 ## 👷🏾 Rétrospective du projet 👷🏾
 
-J'ai galéré à comprendre comment lié le front et le back avant l'intervention de ce bon vieux Guitou !
-Lorsque que j'ai repris chez moi plus tard pareil je ne savais plus comment faire, c'était assez laborieux j'ai cassé un nombre de fois incalculable ma TO-DO liste, j'ai essayé de te rendre quelque chose qui fonctionnait (Désolé pour les mauvaises pratiques qui doivent sûrement traînées)
+J'ai galéré à comprendre comment lier le front et le back avant l'intervention de ce bon vieux Guitou !
+Lorsque que j'ai repris chez moi plus tard pareil je ne savais plus comment faire, c'était assez laborieux j'ai cassé un nombre de fois incalculable ma TO-DO liste, j'ai essayé de te rendre quelque chose qui fonctionne (Désolé pour les mauvaises pratiques qui doivent sûrement traînées, j'ai pourtant relu)
 
-Je n'ai pas réussi à mettre en place le système de "Terminée/Pas terminée" car mon Prisma comme tu le verras à complétement foiré, il s'est créer à plusieurs endroits différents, et comme quand j'ai essayé d'en bouger un l'appli a pété, je ne préfère pas y toucher à nouveau, pareil pour la variable d'env un coup il l'a reconnaît, un autre non, j'ai arrété de me battre avec...
+Je n'ai pas réussi à mettre en place le système de "Terminée/Pas terminée" car mon Prisma comme tu le verras à complétement foiré, il s'est créer à plusieurs endroits différents, et comme quand j'ai essayé d'en bouger un l'appli a pété, je ne préfère pas y toucher à nouveau, pareil pour la variable d'env, un coup il l'a reconnaît, un autre non, j'ai arrété de me battre avec...
 
 Les labels sont manquants, comme le filtre de TO-DO, comme l'interface de connexion.
 
