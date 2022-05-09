@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# ❤️ Coucou Mathieu ❤️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Je te présente ma TO-DO liste (Cadeau d'anniversaire empoisonné à mon humble avis)
+Je n'ai malencontreusement pas pu remplir la grille de critères que tu m'avais demandé, j'ai néanmoins tenté de faire de mon mieux 🫡
 
-## Available Scripts
+## 🏎 Lancer le projet ! 💨
 
-In the project directory, you can run:
+Je t'invite à utiliser 2 terminaux un pour le front et un autre pour le back
 
-### `yarn start`
+1. `yarn run dev:front`
+2. `yarn run dev:back`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Et voilà mon appli est lancé !
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📝 Résumé des fonctionnalités présentes 📝
 
-### `yarn test`
+1. Tu peux donc via ma TO-DO liste te créer à ta grande surprise une TO-DO 🤩 en lui donnant notamment un Titre, une Description et une Due Date
+2. Tu pourras ensuite modifier par la suite le Titre (Si tu t'es trompé), la Description (Pour les mêmes raisons) et changer manuellement le Statut (Je trouvais ça plus drôle qu'un input Select)
+3. Tu peux supprimer la TO-DO de ton choix !
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 👷🏾 Rétrospective du projet 👷🏾
 
-### `yarn build`
+J'ai galéré à comprendre comment lié le front et le back avant l'intervention de ce bon vieux Guitou !
+Lorsque que j'ai repris chez moi plus tard pareil je ne savais plus comment faire, c'était assez laborieux j'ai cassé un nombre de fois incalculable ma TO-DO liste, j'ai essayé de te rendre quelque chose qui fonctionnait (Désolé pour les mauvaises pratiques qui doivent sûrement traînées)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Je n'ai pas réussi à mettre en place le système de "Terminée/Pas terminée" car mon Prisma comme tu le verras à complétement foiré, il s'est créer à plusieurs endroits différents, et comme quand j'ai essayé d'en bouger un l'appli a pété, je ne préfère pas y toucher à nouveau, pareil pour la variable d'env un coup il l'a reconnaît, un autre non, j'ai arrété de me battre avec...
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Les labels sont manquants, comme le filtre de TO-DO, comme l'interface de connexion.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+À mon grand regret je n'ai pas réussi à l'héberger sur Heroku, car je ne pouvais pas le connecter à Git à cause d'une "Internal Server Error" et le remote via le Heroku CLI n'a pas fonctionné aussi... M'enfin se sera sur du bon vieux localhost.
 
-### `yarn eject`
+Le résultat est sans appel je pense, néanmoins je suis content de ma TO-DO même si elle n'est pas complète 😁
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+En tout cas ce fut un grand plaisir que d'apprendre à tes côtés cette année ❤️ 
+Merci pour tout,
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Laroche Jordan B3 Dév.
