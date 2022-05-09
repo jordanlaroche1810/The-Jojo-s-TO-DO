@@ -55,6 +55,7 @@ async function upTodo(id, todo) {
       nom: todo.nom,
       description: todo.description,
       statut: todo.statut,
+      dueDate: todo.dueDate,
     },
   });
 }

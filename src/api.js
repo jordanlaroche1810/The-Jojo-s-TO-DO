@@ -31,6 +31,7 @@ export async function upTodo(id, todo) {
     nom: todo.nom,
     statut: todo.statut,
     description: todo.description,
+    dueDate: todo.dueDate,
   });
   return data;
 }

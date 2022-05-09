@@ -6,9 +6,9 @@ const App = () => {
   const defaultTodo = {
     id: null,
     nom: "",
-    statut: "Pas commencé",
+    statut: "En cours",
     description: "",
-    dueDate: "yoo",
+    dueDate: "",
   };
 
   const [todos, setTodos] = useState([]);
@@ -38,14 +38,19 @@ const App = () => {
     });
   }
 
-  function toggleComplete(id) {
-    let updatedTodos = [...todos].map((todo) => {
+  function toggleComplete(id, todo) {
+    /* let updatedTodos = [...todos].map((todo) => {
       if (todo.id === id) {
         todo.completed = !todo.completed;
       }
       return todo;
     });
-    setTodos(updatedTodos);
+    setTodos(updatedTodos); */
+    /* let todoCompleted = {...todo, statut:todo.statut === "fini!" ? "En cours" : "fini!"}
+    console.log(todoCompleted)
+    upTodo(todoCompleted).then((res) => {
+      setTodo(currentList => [...currentList.map(list => list.id === res.data.result.id ? list = res.data.result : list)])
+    }) */
   }
 
   function submitEdits(id) {
@@ -96,7 +101,7 @@ const App = () => {
                 type="checkbox"
                 id="completed"
                 checked={false}
-                onChange={() => toggleComplete(todo.id)}
+                onChange={() => toggleComplete(todo)}
               />
             }
             {todo.id === todoEditing.id ? (
